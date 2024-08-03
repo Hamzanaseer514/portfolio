@@ -1,308 +1,182 @@
 import React from "react";
 
 const Skills = () => {
+  
   return (
-    <>
-      <section className="flex flex-col mt-10 ">
-        <h4 class="text-black text-3xl md:text-5xl font-bold mb-6 text-center">
-          SKILLS
-        </h4>
-        <div class=" flex justify-start items-center ">
-          <div class="max-w-3xl mx-auto w-full ">
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Mern Stack
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  80%
-                </span>
-              </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="20 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#FF6464"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 79.2px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
+    <div className="flex items-center justify-center " id="Skills"> 
+      <div className="mx-auto px-4 py-10 max-w-6xl w-full"> 
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-10 text-center ">Skills</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-6 mx-auto" >
+          
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="4000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">HTML</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-500  transition-transform duration-1000 animate-draw" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="5.743338823081398" />
               </svg>
             </div>
-
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Mobile App{" "}
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  95%
-                </span>
-              </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#9272D4"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  //   style={{"stroke-dasharray: 94.05px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"}}
-                ></path>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">95%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="5000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">CSS</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-500" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="20.09733552923255" />
               </svg>
             </div>
-
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Illustrator
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  65%
-                </span>
-              </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#5185D4"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 64.35px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">80%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="6000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">Javascript</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-500" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="30.2269031477931" />
               </svg>
             </div>
-
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Photoshope
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  75%
-                </span>
-              </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#CA56F2"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 74.25px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">70%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="7000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">React JS</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-950" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="30.09733552923255" />
               </svg>
+            </div>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">70%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="8000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">Node JS</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-950" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="20.09733552923255" />
+              </svg>
+            </div>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">80%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="9000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">Express JS</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-950" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="30.09733552923255" />
+              </svg>
+            </div>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">70%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="9000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">MongDB</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-950" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="40.09733552923255" />
+              </svg>
+            </div>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">60%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] p-6" data-aos="fade-up" data-aos-duration="9000">
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">Wordpress</h2>
+            <div className="flex items-center justify-center">
+              <svg className="w-28 h-28 text-blue-950" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#e2e8f0" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke-width="10" stroke="#63b3ed" fill="none" stroke-dasharray="282.7433388230814 282.7433388230814" stroke-dashoffset="40.09733552923255" />
+              </svg>
+            </div>
+            <div className="text-center mt-2">
+              <span className="font-bold text-gray-800">60%</span>
             </div>
           </div>
         </div>
-        <div class=" flex justify-start items-center  ">
-          <div class="max-w-3xl mx-auto w-full">
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Web Design
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  80%
-                </span>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10" data-aos="fade-down" data-aos-duration="10000">
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="flex items-center">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">Tailwind </h2>
+              <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden ml-4">
+                <div className="w-80 h-full bg-[#63b3ed]  rounded-full" style={{width: "80%"}}></div>
               </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#FF6464"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 79.2px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
-              </svg>
             </div>
-
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Mobile App{" "}
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  95%
-                </span>
-              </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#9272D4"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 94.05px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
-              </svg>
+            <div className="text-right mt-2">
+              <span className="font-bold text-gray-800">80%</span>
             </div>
-
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Illustrator
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  65%
-                </span>
+          </div>
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="flex items-center">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">BootStrap</h2>
+              <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden ml-4">
+                <div className="w-80 h-full bg-[#63b3ed]  rounded-full" style={{width: "70%"}}></div>
               </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#5185D4"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 64.35px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
-              </svg>
             </div>
-
-            <div class="mb-7">
-              <div class="flex justify-between py-1">
-                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                  Photoshope
-                </span>
-                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                  75%
-                </span>
+            <div className="text-right mt-2">
+              <span className="font-bold text-gray-800">70%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="flex items-center">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">C++</h2>
+              <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden ml-4">
+                <div className="w-80 h-full bg-[#63b3ed]  rounded-full" style={{width: "60%"}}></div>
               </div>
-              <svg
-                class="rc-progress-line"
-                viewBox="0 0 100 1"
-                preserveAspectRatio="none"
-              >
-                <path
-                  class="rc-progress-line-trail"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#D9D9D9"
-                  stroke-width="1"
-                  fill-opacity="0"
-                ></path>
-                <path
-                  class="rc-progress-line-path"
-                  d="M 0.5,0.5
-         L 99.5,0.5"
-                  stroke-linecap="round"
-                  stroke="#CA56F2"
-                  stroke-width="1"
-                  fill-opacity="0"
-                  // style="stroke-dasharray: 74.25px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;"
-                ></path>
-              </svg>
+            </div>
+            <div className="text-right mt-2">
+              <span className="font-bold text-gray-800">60%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="flex items-center">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">C#</h2>
+              <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden ml-4">
+                <div className="w-40 h-full bg-[#63b3ed]  rounded-full" style={{width: "80%"}}></div>
+              </div>
+            </div>
+            <div className="text-right mt-2">
+              <span className="font-bold text-gray-800">80%</span>
             </div>
           </div>
         </div>
-      </section>
-    </>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="flex items-center">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">SQL</h2>
+              <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden ml-4">
+                <div className="w-85 h-full bg-[#63b3ed]  rounded-full" style={{width: "85%"}}></div>
+              </div>
+            </div>
+            <div className="text-right mt-2">
+              <span className="font-bold text-gray-800">85%</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="flex items-center">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">Python</h2>
+              <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden ml-4">
+                <div className="w-70 h-full bg-[#63b3ed] rounded-full" style={{width: "70%"}}></div>
+              </div>
+            </div>
+            <div className="text-right mt-2">
+              <span className="font-bold text-gray-800">70%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

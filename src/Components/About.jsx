@@ -4,8 +4,8 @@ import Skills from "./Skills";
 const About = () => {
   return (
     <>
-      <section className="p-5 ">
-        <h1 className="text-center text-4xl from-stone-950 pt-6 pb-2 mb-7  font-bold">
+      <section className="p-5 " id="about">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl pt-5  font-bold text-gray-800 mb-10 text-center ">
           LEARN MORE ABOUT ME
         </h1>
         <div className="flex justify-evenly flex-col sm:flex-row">
@@ -14,9 +14,10 @@ const About = () => {
               className="border-l-8 border-t-8 border-[#3b63ff]"
               src="./about.png"
               alt=""
+              data-aos="fade-right" data-aos-duration="4000"
             />
           </div>
-          <div className="flex flex-col justify-self-start sm:w-[50%] lg:p-10 border-l-8 border-[#3b63ff]">
+          <div className="flex flex-col justify-self-start sm:w-[50%] lg:p-10 border-l-8 sm:border-none  border-[#3b63ff]"    data-aos="fade-up" data-aos-duration="8000">
             <h2 className="text-justify p-2 px-5 lg:text-2xl xl:text-3xl text-xl font-bold pt-6 pb-2 text-[#c4c9c6] ">
               Computer Science Student & Web Developer
             </h2>

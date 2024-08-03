@@ -18,7 +18,8 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="flex justify-between items-center p-9 text-xl h-8   w-full bg-slate-100">
+        {/* mg:fixed */}
+        <div className="flex justify-between items-center p-9 text-xl h-8    w-full bg-slate-100">
           <div className=" ">
             <img
               src="./hamzalinkedin.JPG"
@@ -33,27 +34,27 @@ const Navbar = () => {
               <a className="" href=""></a>
             </div>
             <div>
-              <a className="hover:text-[#3b63ff]" href="">
+              <a className="hover:text-[#3b63ff]" href="#home">
                 Home
               </a>
             </div>
             <div>
-              <a className="hover:text-[#3b63ff]" href="">
+              <a className="hover:text-[#3b63ff]" href="#about">
                 About
               </a>
             </div>
             <div>
-              <a className="hover:text-[#3b63ff]" href="">
+              <a className="hover:text-[#3b63ff]" href="#services">
                 Services
               </a>
             </div>
             <div>
-              <a className="hover:text-[#3b63ff]" href="">
+              <a className="hover:text-[#3b63ff]" href="#projects">
                 Projects
               </a>
             </div>
             <div>
-              <a className="hover:text-[#3b63ff]" href="">
+              <a className="hover:text-[#3b63ff]" href="#contactus">
                 Contact Us
               </a>
             </div>
@@ -98,31 +99,31 @@ const Navbar = () => {
             
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 sm:text-xl ">
               <a
-                href="/"
+                href="#home"
                 className=" block  rounded-lg p-2 hover:text-[#3b63ff]"
               >
                 Home
               </a>
               <a
-                href="#"
+                href="#about"
                 className=" block  rounded-lg p-2 hover:text-[#3b63ff]"
               >
                 About
               </a>
               <a
-                href="/watches"
+                href="#services"
                 className=" block  rounded-lg p-2 hover:text-[#3b63ff]"
               >
                Services
               </a>
               <a
-                href="/bags"
+                href="#projects"
                 className=" block  rounded-lg p-2 hover:text-[#3b63ff]"
               >
                 Projects
               </a>
               <a
-                href="/shoes"
+                href="#contactus"
                 className=" block rounded-lg p-2 hover:text-[#3b63ff]"
               >
                 Contact Us

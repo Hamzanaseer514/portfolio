@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.forShadow:hover{
-    filter: drop-shadow(1rem 1rem 1rem rgb(188, 185, 185));
+body{
+    font-family: "Poppins";
 }
+/* .forShadow:hover{
+    filter: drop-shadow(1rem 1rem 1rem rgb(188, 185, 185));
+} */
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  @keyframes drawCircle {
+    from {
+      stroke-dashoffset: 282.7433388230814; /* Initial offset value */
+    }
+    to {
+      stroke-dashoffset: 0; /* Final offset value */
+    }
+  }
+  
+  .animate-circle {
+    animation: drawCircle 2s ease-out forwards;
+  }
+  

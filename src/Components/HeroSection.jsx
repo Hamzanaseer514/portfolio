@@ -1,43 +1,46 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { ImLinkedin } from "react-icons/im";
-import { MdAttachEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 const HeroSection = () => {
+  // style={{background: "linear-gradient(90deg, rgba(6,226,212,0.7848389355742297) 0%, rgba(164,202,207,0.7820378151260504) 39%, rgba(47,96,172,1) 82%)"}}
   return (
     <>
-      <section>
+      <section  className="" id="home">
         <div className="flex flex-col sm:flex-row-reverse">
-          <div className="  w-[100%] sm:w-[50%] mt-14">
+          <div className="  w-[100%] sm:w-[50%] " data-aos="fade-up" data-aos-duration="4000">
             <img className="w-[100%] forShadow" src="./heropic.png" alt="" />
           </div>
-          <div className="flex flex-col sm:gap-2 md:gap-3 lg:gap-4 text-center py-5  justify-center items-center w-[100%] sm:w-[50%] ">
+          <div className="flex flex-col sm:gap-2 md:gap-3 lg:gap-4 text-center py-5   justify-center items-center w-[100%] sm:w-[50%] "    data-aos="fade-down" data-aos-duration="4000">
             <div className="">
               <h2 className="text-xl md:text-2xl lg:text-2xl lg:tracking-[5px] ">
                 {/* <p>Welcome TO Tech World</p> */}
                 I'm  <span className=" font-bold">Ameer Hamza</span>
               </h2>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl lg:tracking-[5px]">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl lg:tracking-[5px] animate-typing overflow-hidden whitespace-nowrap">
                 {/* <p>Welcome TO Tech World</p> */}
-                I'm a <span className="text-[#3b63ff] font-bold">Web Developer</span>
+                I'm a <span className="text-[#3b63ff] font-bold ">Web Developer</span>
               </h2>
             </div>
-            <div className="flex text-xl justify-center pt-3 space-x-3 sm:space-x-5 md:space-x-7 lg:space-x-10 items-center md:text-2xl lg:text-3xl">
-              <a href="">
+            <div className="flex text-lg justify-center pt-3 space-x-3 sm:space-x-5 md:space-x-7 lg:space-x-8 items-center md:text-xl lg:text-2xl">
+              <a className="hover:text-white hover:bg-[#63b3ed] bg-white  border border-[#63b3ed] p-2 rounded-3xl" href="">
                 <FaGithub />
               </a>
-              <a href="">
+              <a className="hover:text-white hover:bg-[#63b3ed] bg-white  border border-[#63b3ed] p-2 rounded-3xl" href="">
                 {" "}
-                <ImLinkedin />
+                <FaLinkedinIn />
               </a>
-              <a href="">
+              <a className="hover:text-white hover:bg-[#63b3ed] bg-white  border border-[#63b3ed] p-2 rounded-3xl" href="">
                 {" "}
-                <MdAttachEmail />
+                <MdAlternateEmail />
               </a>
-              <a href="">
+              <a className="hover:text-white hover:bg-[#63b3ed] bg-white  border border-[#63b3ed] p-2 rounded-3xl" href="">
                 {" "}
-                <FaFacebook />
+                <IoLogoWhatsapp />
               </a>
             </div>
             <div>
